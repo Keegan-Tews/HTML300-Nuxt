@@ -10,7 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
     "nuxt": "^3.13.0",
+    "openmeteo": "^1.1.4",
+    "usebootstrap": "^3.5.49",
     "vue": "latest",
     "vue-router": "latest"
   }
