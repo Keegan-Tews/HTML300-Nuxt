@@ -7,20 +7,10 @@ const weatherProps = defineProps({
   temperature_2m: Number,
   relative_humidity_2m: Number,
   precipitation: Number,
-  rain: Number,
-  showers: Number,
-  snowfall: Number,
-  snow_depth: Number,
-  weather_code: Number,
-  temperature_2m_max: Number,
-  temperature_2m_min: Number,
-  apparent_temperature_max: Number,
-  apparent_temperature_min: Number,
   temperature_unit: String,
   wind_speed_unit: String,
   precipitation_unit: String,
   timezone: String,
-  forecast_days: Number,
 });
 </script>
 
