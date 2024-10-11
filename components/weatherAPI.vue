@@ -1,55 +1,39 @@
 <script setup>
-import { ref, defineProps } from "vue";
+// import { ref, defineProps } from "vue";
 
-const weatherProps = defineProps({
-  latitude: Number,
-  longitude: Number,
-  temperature_2m: Number,
-  relative_humidity_2m: Number,
-  precipitation: Number,
-  temperature_unit: String,
-  wind_speed_unit: String,
-  precipitation_unit: String,
-  timezone: String,
-});
+// const weatherProps = defineProps({
+//   latitude: Number,
+//   longitude: Number,
+//   temperature_2m: Number,
+//   relative_humidity_2m: Number,
+//   precipitation: Number,
+//   temperature_unit: String,
+//   wind_speed_unit: String,
+//   precipitation_unit: String,
+//   timezone: String,
+// });
 </script>
 
 <template>
-  <div class="weather-card card">
+  <!-- <div class="weather-card card">
     <div class="row">
-      <div class="col-lg-6 col-md-12 card-title">Location</div>
-      <p class="col-lg-6 col-md-12">
-        Latitude:{{ weatherProps.latitude }}, Longitude:{{
-          weatherProps.longitude
-        }}
-      </p>
+      <div class="col-lg-6 col-md-12 card-title">
+        current temperature is: {{ weatherProps.temperature_2m }}
+        {{ weatherProps.temperature_unit }}
+      </div>
+      <div class="col-lg-6 col-md-12 card-title">
+        current humidity is: {{ weatherProps.relative_humidity_2m }} %
+      </div>
+      <div class="col-lg-6 col-md-12 card-title">
+        current wind speed is: {{ weatherProps.wind_speed_10m }}
+        {{ weatherProps.wind_speed_unit }}
+      </div>
+      <div class="col-lg-6 col-md-12 card-title">
+        current precipitation is: {{ weatherProps.precipitation }}
+        {{ weatherProps.precipitation_unit }}
+      </div>
     </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12 card-title">Temperature</div>
-      <p class="col-lg-6 col-md-12">
-        Current Temperature:{{ weatherProps.temperature_2m }}, Relative
-        Humidity:{{ weatherProps.relative_humidity_2m }}, High/Low:{{
-          weatherProps.temperature_2m_max
-        }}/{{ weatherProps.temperature_2m_min }},
-      </p>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12 card-title">Precipitation</div>
-      <p class="col-lg-6 col-md-12">
-        Precipitation:{{ weatherProps.precipitation }}, Rain:{{
-          weatherProps.rain
-        }}, Showers:{{ weatherProps.showers }}, Snowfall:{{
-          weatherProps.snowfall
-        }}, Snow Depth:{{ weatherProps.snow_depth }},
-      </p>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12 card-title">Wind Speed</div>
-      <p class="col-lg-6 col-md-12">
-        Wind Speed:{{ weatherProps.wind_speed_unit }}
-      </p>
-    </div>
-  </div>
+  </div> -->
 </template>
 
 <style scoped></style>
